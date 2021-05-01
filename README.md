@@ -5,8 +5,7 @@ Assignments solved in the course Robotics: Path Planning and Navigation course b
 ## RRT : Rapidly-exploring Random Tree
 
 #### Problem statement
-- Implement the RRT path planning algorithm for a robot. The robot is to navigate a two dimensional space, avoiding known locations with obstacles, traveling from its initial location to a goal location. Given localization information (robot’s initial position, obstacle location, goal location), your task is to implement a path planning decision maker to drive the robot from its
-initial position to the desired location. 
+- Implement the RRT path planning algorithm for a robot. The robot is to navigate a two dimensional space, avoiding known locations with obstacles, traveling from its initial location to a goal location. Given localization information (robot’s initial position, obstacle location, goal location), the task is to implement a path planning decision maker to drive the robot from its initial position to the desired location. 
 - Specifically, the problem can be formed as follows: Consider a 2D grid instantiated with different kinds of obstacles (for instance, geometrical shapes like Rectangles, Circles, Triangles or a combination of any
 of the above 2/3). Assign a start and end point on this grid. 
 - Implement the RRT algorithm for two cases, (1) Holonomic Robot and (2) Non-Holonomic Robot.
@@ -20,8 +19,7 @@ of the above 2/3). Assign a start and end point on this grid.
 
 ## Model Predictive Control Planner
 #### Problem statement
-- Implement a discrete MPC planner for omni-wheel robot. You must implement the MPC algorithm for a two cases (i) With Obstacles (ii) Without Obstacles. You can use solvers like cvxopt in python or any other equivalent in Matlab.
-- Your planner for a robot needs to satisfy various constraints on speed, acceleration, obstacle avoidance to make it feasible. Additionally your plan needs to optimize some aspect in your environment like speed, time or safety. Your plan should be n steps into the future.
+- Implement a discrete MPC planner for omni-wheel robot. Implement the MPC algorithm for a two cases (i) With Obstacles (ii) Without Obstacles. Use solvers like cvxopt in python or any other equivalent in Matlab.
 
 ![Screenshot from 2021-05-02 01-18-39](https://user-images.githubusercontent.com/30972206/116793434-5b8a7c80-aae4-11eb-9a67-50745bb8f973.png)
 #### Problem formulation as an optimization
@@ -35,9 +33,8 @@ of the above 2/3). Assign a start and end point on this grid.
 ## Velocity Obstacle formulation for collision avoidance
 #### Problem statement
 - Use velocity obstacle/ collision cone formulation to perform goal reaching obstacle avoidance. 
-- Consider the following situation for the above: A single agent is supposed to reach its goal while avoiding multiple
-moving obstacles.
-- You can consider using a cost function in order to arrive at the optimal velocity such that the agent reaches the goal while avoiding the obstacles. You can select your preferred method for solving it: (a)Optimization (b) Sampling. Do the above for a Holonomic robot.
+- Consider the following situation for the above: A single agent is supposed to reach its goal while avoiding multiple moving obstacles.
+- Consider using a cost function in order to arrive at the optimal velocity such that the agent reaches the goal while avoiding the obstacles. Select your preferred method for solving it: (a)Optimization (b) Sampling. Do the above for a Holonomic robot.
 #### Problem formulation
 ![vocc](https://user-images.githubusercontent.com/30972206/116793506-bd4ae680-aae4-11eb-9d03-ef1d74fb8ddc.jpeg)
 #### Outputs
