@@ -1,5 +1,5 @@
 
-# Robotics-Planning-Navigation-Algorithms
+# Robotics Planning Navigation Algorithms
 Assignments solved in the course Robotics: Path Planning and Navigation course by Dr. Madhav Krishna in Spring 2021.
 
 ## RRT : Rapidly-exploring Random Tree
@@ -13,6 +13,7 @@ of the above 2/3). Assign a start and end point on this grid.
 ![non-holo-output](https://user-images.githubusercontent.com/30972206/116793890-20d61380-aae7-11eb-845e-a0d1c58388d1.gif)
 ![non-holo-wheel-output](https://user-images.githubusercontent.com/30972206/116793893-23d10400-aae7-11eb-9927-6b6ed54cada5.gif)
 
+------------------------------
 
 ## Model Predictive Control Planner
 - Implement a discrete MPC planner for omni-wheel robot. You must implement the MPC algorithm for a two cases (i) With Obstacles (ii) Without Obstacles. You can use solvers like cvxopt in python or any other equivalent in Matlab.
@@ -21,7 +22,7 @@ of the above 2/3). Assign a start and end point on this grid.
 ![Screenshot from 2021-05-02 01-18-39](https://user-images.githubusercontent.com/30972206/116793434-5b8a7c80-aae4-11eb-9a67-50745bb8f973.png)
 ![Screenshot from 2021-05-02 01-24-02](https://user-images.githubusercontent.com/30972206/116793580-29c5e580-aae5-11eb-8a5c-71997db307be.png)
 
-
+---------------------------------
 ## Velocity Obstacle formulation for collision avoidance
 - Use velocity obstacle/ collision cone formulation to perform goal reaching obstacle avoidance. 
 - Consider the following situation for the above: A single agent is supposed to reach its goal while avoiding multiple
